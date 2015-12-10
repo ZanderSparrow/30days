@@ -1,0 +1,55 @@
+.dec10 {
+	font-family: 'Merriweather', serif;
+	background-image: url("../images/treeSnowCut.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	overflow: hidden;
+}
+
+.title {
+    background: #555;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.calendar {
+	background: rgba(25, 85, 30, 0.5);
+	width: 1300px;
+	height: 700px;
+	padding: 20px;
+}
+
+.calendar section {
+	width: 75%;
+	margin: 0 auto 0;
+}
+
+.boxes {
+	z-index: 2;
+	width: 100px;
+	height: 100px;
+    background: transparent;
+    border-radius: 25%;
+    border: 2px dotted rgba(0, 0, 0, 0.5);
+	float: left;
+	margin: 10px;
+
+}
+
+.boxes.future {
+	background: #555;
+}
+
+.boxes p {
+    font-size: 2em;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: #c00;
+    text-shadow: 2px 2px #333;
+}
