@@ -2,7 +2,7 @@
 
 #### _30 Days of Web Development_
 
-#### By _**Sondra Silverhawk**_
+#### _By **Sondra Silverhawk**_
 
 ## Description
 
