@@ -48,8 +48,4 @@ $(function() {
 		$(this).hide();
 		$(this).closest('.container').find('.comment-form').show();
 	});
-	$('section').on('submit', '.add-comment form', function(e) {
-		e.preventDefault();
-		console.log($('.input-name').val());
-	});
 });
