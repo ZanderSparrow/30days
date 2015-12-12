@@ -20,7 +20,7 @@
 		},
 		{
 			date : '12/11/15',
-			title : 'Side Comment',
+			title : 'Side Comments',
 			description : 'A bare-bones implementation of SideComments.js. This one took a little over an hour.',
 			hash : '121115.html'
 		}
