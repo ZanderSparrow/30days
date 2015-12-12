@@ -17,6 +17,12 @@
 			title : 'Advent Calendar',
 			description : 'A simple countdown until Christmas, created with HTML, CSS, and jQuery.',
 			hash : '121015.html'
+		},
+		{
+			date : '12/11/15',
+			title : 'Side Comment',
+			description : 'A bare-bones implementation of SideComments.js. This one took a little over an hour.',
+			hash : '121115.html'
 		}
 	];
 })();
