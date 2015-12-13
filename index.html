@@ -19,7 +19,7 @@
 		</header>
 		<section class="challenges" ng-controller="DayController as day">
 			<div class="span3" ng-repeat="challenge in day.challenges">
-				<h2><a ng-href='pages/{{challenge.hash}}'>{{challenge.date}}</a> {{challenge.title}}</h2>
+				<h3><a ng-href='pages/{{challenge.hash}}'>{{challenge.date}}</a> {{challenge.title}}</h3>
 				<p class="muted">{{challenge.description}}</p>
 			</div>
 		</section>
