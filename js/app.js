@@ -23,6 +23,12 @@
 			title : 'Side Comments',
 			description : 'A bare-bones implementation of SideComments.js. This one took a little over an hour.',
 			hash : '121115.html'
+		},
+		{
+			date : '12/12/15',
+			title : 'Fun with Processing',
+			description : 'A little trial with the p5.js library.',
+			hash : '121215.html'
 		}
 	];
 })();
