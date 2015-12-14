@@ -10,7 +10,9 @@
 	app.controller('CommentController', function() {
 		this.comment = {};
 		this.addComment = function(story) {
-			story.comments.push(this.comment);
+			if(this.comment.content && this.comment.name) {
+				story.comments.push(this.comment);
+			}
 			this.comment = {};
 		};
 		
@@ -26,8 +28,8 @@
 					content : 'Wow! This is so great. I just love this story. I will share it with all of my friends right now.'
 				},
 				{
-					name : 'Karl',
-					content : 'Neat'
+					name : 'Hodor',
+					content : 'Hodor hodor...'
 				}
 			]
 		},
@@ -47,5 +49,9 @@ $(function() {
 	$('section').on('click', '.add-comment', function() {
 		$(this).hide();
 		$(this).closest('.container').find('.comment-form').show();
+	});
+	$('section').on('click', '#hide', function() {
+		$(this).closest('.container').find('.comment-form').hide();
+		$(this).closest('.container').find('.add-comment').show();
 	});
 });
