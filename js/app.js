@@ -29,6 +29,12 @@
 			title : 'Fun with Processing',
 			description : 'A little trial with the p5.js library.',
 			hash : '121215.html'
+		},
+		{
+			date : '12/13/15',
+			title : 'Badger Ipsum',
+			description : 'Generates Badger Badger Ipsum text.',
+			hash : '121315.html'
 		}
 	];
 })();
