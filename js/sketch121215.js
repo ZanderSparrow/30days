@@ -6,7 +6,7 @@
 // Made a bit weirder
 
 function setup() {
-  var myCanvas = createCanvas(800, 600);
+  var myCanvas = createCanvas(955, 600);
   myCanvas.parent('a-container');
   background(0);
 }
