@@ -1,5 +1,6 @@
 body {
-	background-color: #ccd;
+	background-color: #cdf;
+	font-family: 'Pathway Gothic One', sans-serif;
 }
 
 .dec9 {
@@ -7,6 +8,18 @@ body {
 	background-color: #555;
 }
 
+header {
+	width: 100%;
+	padding: 15px 0 30px 15px;
+}
+
+h1 {
+	font-family: 'Bangers', sans-serif;
+}
+
+p {
+	font-size: 1.25em;
+}
 
 .jumbotron {
 	margin: 10px;
@@ -15,10 +28,6 @@ body {
 
 .jumbotron h1 {
 	font-size: 4em;
-}
-
-.jumbotron p {
-	margin-left: 42px;
 }
 
 .challenges {
