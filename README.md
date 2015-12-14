@@ -6,7 +6,7 @@
 
 ## Description
 
-_This is a series of web development challenges. Each one is done in 30 minutes._
+_One web development challenge per day for 30 days._
 
 ## Setup
 
