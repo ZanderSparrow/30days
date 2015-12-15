@@ -35,6 +35,12 @@
 			title : 'Badger Ipsum',
 			description : 'Generates Badger Badger Ipsum text.',
 			hash : '121315.html'
+		},
+		{
+			date : '12/14/15',
+			title : 'Interactive Grid',
+			description : 'Dispays a grid of squares that change color when clicked.',
+			hash : '121415.html'
 		}
 	];
 })();

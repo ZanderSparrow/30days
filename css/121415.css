@@ -1,0 +1,22 @@
+section {
+  margin: 11px;
+}
+
+.grid, .square {
+  border: 1px solid #555;
+}
+
+.grid {
+  width: 600px;
+  height: 600px;
+  background-color: #eee;
+}
+
+.square {
+  box-sizing: border-box;
+  float: left;
+}
+
+.square:hover {
+  cursor: pointer;
+}
