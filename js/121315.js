@@ -1,35 +1,38 @@
 $(function() {
 	function addBadgers() {
-		var output = '<p>Badger ';
+		var output = 'Badger ';
 		for( var i = 0; i < 11; i++) {
 			output += 'badger ';
 		}
-		output += '</p>';
+		output += '\n\n';
 		return output;
 	}
 
 	function addMushrooms() {
-		return '<p>mushroom mushroom</p>';
+		return 'mushroom mushroom\n\n';
 	}
 
 	$('.ipsum').on('click', '.btn', function(e) {
 		e.preventDefault();
 		var numP = $('#appendedInputButton').val();
 		var count = 1;
-		var target = $('.ipsum-text');
+		var target = $('.ipsum-text textarea');
 		target.html('');
 		var badgers = addBadgers();
 		var mushrooms = addMushrooms();
+		var text = '';
 		while(count <= +numP) {
 			if(count === 10 || count % 10 === 0) {
-				target.append("<p><strong>AARRGH</strong> a snake, a snake, ah-ooooo it's a snaaake!</p>");
+				text += "AARRGH a snake, a snake, ah-ooooo it's a snaaake!\n\n";
 			} else if(count % 2 === 0) {
-				target.append(mushrooms);
+				text += mushrooms;
 			} else {
-				target.append(badgers);
+				text += badgers;
 			}
 			count++;
 			
 		}
+		target.val(text);
+		target.show();
 	});
 });
