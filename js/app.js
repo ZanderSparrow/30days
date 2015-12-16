@@ -26,7 +26,7 @@
 		},
 		{
 			date : '12/12/15',
-			title : 'Fun with Processing',
+			title : 'Fun with p5',
 			description : 'A little trial with the p5.js library.',
 			hash : '121215.html'
 		},
@@ -41,6 +41,12 @@
 			title : 'Interactive Grid',
 			description : 'Dispays a grid of squares that change color when clicked.',
 			hash : '121415.html'
+		},
+		{
+			date : '12/15/15',
+			title : 'Word Soup',
+			description : 'Produces a jumbled essay by taking random sentences from various text files.',
+			hash : '121515.html'
 		}
 	];
 })();
