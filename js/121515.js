@@ -12,7 +12,7 @@ $(function() {
   var numSentences = 4;
   
   $('.generate').on('click', function() {
-    $('.output').html('').show();
+    $('.output').html('').hide();
     for(var i = 0; i < numSentences; i++) {
       var txt = getRandomText(texts);
       $.ajax({
@@ -26,6 +26,7 @@ $(function() {
         }
       });
     }
+    $('.output').show();
   });
     
 });
