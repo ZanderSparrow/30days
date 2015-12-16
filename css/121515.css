@@ -1,0 +1,13 @@
+.output {
+  max-width: 500px;
+  font-size: 1.25em;
+  font-family: 'Just Another Hand', cursive;
+  line-height: 1.5em;
+  margin: 20px 0 20px;
+  padding: 3em;
+  background-color: #ffffe5;
+  color: #4c4d00;
+  border: 1px solid #4c4d00;
+  border-radius: 2%;
+  display: none;
+}
