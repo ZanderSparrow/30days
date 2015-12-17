@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Bangers|Pathway+Gothic+One' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="../css/styles.css">
+	<link rel="stylesheet" type="text/css" href="../css/121615.css">
+	<script src="../js/jQuery.js"></script>
+	<script src="../js/angular.min.js"></script>
+	<script src="../js/121615.js"></script>
+	<title>30 Days of Web Development | Day 8</title>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h1>Hidden Boats</h1>
+			<p class="lead">Find the boats before you run out of guesses</p>
+		</header>
+		<section>
+			<div class="board span8"></div>
+			<div class="play span3">
+			  <select class="span2">
+			  	<option>Easy</option>
+			  	<option>Medium</option>
+			  	<option>Hard</option>
+			  	<option>Extreme</option>
+			  </select><span class="help-inline">Difficulty</span>
+				<button class="btn btn-inverse start">New Game</button>
+				<div class="turns-left">
+					<h4>Guesses Remaining:</h4>
+					<p class="turns-display"></p>
+				</div>
+				<div class="game-over">
+				  <h4>Game Over</h4>
+					<p>Thanks for playing hidden boats!</p>
+				</div>
+				<div class="winner">
+					<h4>You win!</h4>
+					<p>Congradulations, you found all the boats!!!</p>
+				</div>
+			</div>
+		</section>
+		<footer></footer>
+	</div>
+</body>
+</html>

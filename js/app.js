@@ -47,6 +47,12 @@
 			title : 'Word Soup',
 			description : 'Produces a jumbled essay by taking random sentences from various text files.',
 			hash : '121515.html'
+		},
+		{
+			date : '12/16/15',
+			title : 'Hidden Boats',
+			description : 'Find the red boats before you run out of guesses.',
+			hash : '121615.html'
 		}
 	];
 })();

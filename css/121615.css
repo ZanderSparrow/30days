@@ -1,0 +1,32 @@
+.board, .square, .play {
+  float: left;
+}
+
+.board {
+  width: 500px;
+  height: 500px;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  background-color: #555;
+  box-sizing: border-box;
+  border: 1px solid #eee;
+}
+
+.square:hover {
+  cursor: pointer;
+}
+
+.turns-left, .game-over, .winner {
+  display: none;
+}
+
+.square.hit {
+  background-color: red;
+}
+
+.square.miss {
+  background-color: #000;
+}
