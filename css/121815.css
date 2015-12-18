@@ -1,0 +1,23 @@
+.selections button.btn-large {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 2em;
+}
+
+.timer-set, .error {
+  display: none;
+}
+
+.black-out {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.black-out button {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 2em;
+}
+
+.black-out button.btn-link, .error {
+  color: #cdf;
+}
+

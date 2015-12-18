@@ -59,6 +59,12 @@
 			title : 'Data.gov and d3',
 			description : 'A project using data from data.gov the d3 library.',
 			hash : '121715.html'
+		},
+		{
+			date : '12/18/15',
+			title : 'Flip Time',
+			description : 'A flip clock made with FlipClock.js.',
+			hash : '121815.html'
 		}
 	];
 })();
