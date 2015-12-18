@@ -53,6 +53,12 @@
 			title : 'Hidden Boats',
 			description : 'Find the red boats before you run out of guesses.',
 			hash : '121615.html'
+		},
+		{
+			date : '12/17/15',
+			title : 'Data.gov and d3',
+			description : 'A project using data from data.gov the d3 library.',
+			hash : '121715.html'
 		}
 	];
 })();

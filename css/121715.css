@@ -1,0 +1,19 @@
+body {
+  background-color: #222;
+}
+
+header {
+  color: #cdf;
+}
+
+.bar {
+  background-color: #eee;
+  border: 1px solid black;
+  width: 15px;
+  float: left;
+}
+
+.bar p {
+  font-size: 0.75em;
+  text-align: center;
+}
