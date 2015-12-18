@@ -23,6 +23,10 @@ $(function() {
       $('.chart').append('<div class="bar ' + state + '"></div>');
       $('.' + state).height(Math.round(means[state] / 20)).append('<p>' + state + '</p>');
     }
+
+    d3.selectAll(".bar").style("background-color", function() {
+      return "hsl(" + Math.random() * 360 + ",40%,50%)";
+    });
     
   });
 
