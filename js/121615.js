@@ -52,28 +52,21 @@ $(function() {
         if(currentSquare > 9 && dice > 4) {
           if(!$('.' + currentSquare - 10).hasClass('boat')) {
             currentSquare -= 10;
-            $('.' + currentSquare).addClass('boat');
-            continue;
           }
         } else if(currentSquare % 10 !== 0 && dice < 3) {  //look right
           if(!$('.' + currentSquare - 1).hasClass('boat')) {
             currentSquare--;
-            $('.' + currentSquare).addClass('boat');
-            continue;
           }
         } else if(currentSquare < 90 && dice < 5 && dice > 2) {   //look below
           if(!$('.' + currentSquare + 10).hasClass('boat')) {
             currentSquare += 10;
-            $('.' + currentSquare).addClass('boat');
-            continue;
           }
         } else if(currentSquare % 10 !== 9) {   //look left
           if(!$('.' + currentSquare + 1).hasClass('boat')) {
             currentSquare++;
-            $('.' + currentSquare).addClass('boat');
-            continue;
           }
         }
+        $('.' + currentSquare).addClass('boat');
       }
     }
   };
