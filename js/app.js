@@ -45,7 +45,7 @@
 		{
 			date : '12/15/15',
 			title : 'Word Soup',
-			description : 'Produces a jumbled essay by taking random sentences from various text files.',
+			description : 'A jumbled essay of random sentences from various text files.',
 			hash : '121515.html'
 		},
 		{
@@ -65,6 +65,12 @@
 			title : 'Flip Time',
 			description : 'A flip clock made with FlipClock.js.',
 			hash : '121815.html'
+		},
+		{
+			date : '12/19/15',
+			title : 'Snow Cat',
+			description : 'Nyan dashing through the snow.',
+			hash : '121915.html'
 		}
 	];
 })();
