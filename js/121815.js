@@ -4,6 +4,7 @@ $(function() {
   var setCurrentTime = function() {
     $('.min').val('');
     $('.sec').val('');
+    $('body').removeClass('count-done');
     clock = $('.clock').FlipClock();
     var d = new Date();
     var time = d.getSeconds();
@@ -13,17 +14,21 @@ $(function() {
     clock.setTime(time);
   };
 
-  var stopWatch = function(t) { 
+  var stopWatch = function(t) {
     $('.error').hide();
     clock = $('.clock').FlipClock(t, {
       clockFace: 'MinuteCounter',
       countdown: true
     });
+    setTimeout(function() {
+      $('body').addClass('count-done');
+    }, t * 1000 + 1000);
   };
 
   setCurrentTime();
 
   $('.stop-watch').on('click', function() {
+    $('body').removeClass('count-done');
     $('body').addClass('black-out');
     $('.timer-set').show();
   });
