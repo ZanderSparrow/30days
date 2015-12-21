@@ -77,6 +77,12 @@
 			title : 'Simon',
 			description : 'A copy the color pattern game.',
 			hash : '122015.html'
+		},
+		{
+			date : '12/21/15',
+			title : 'Parallax',
+			description : 'An experiment with parallax scrolling.',
+			hash : '122115.html'
 		}
 	];
 })();
