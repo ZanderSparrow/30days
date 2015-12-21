@@ -71,6 +71,12 @@
 			title : 'Snow Cat',
 			description : 'Nyan dashing through the snow.',
 			hash : '121915.html'
+		},
+		{
+			date : '12/20/15',
+			title : 'Simon',
+			description : 'A copy the color pattern game.',
+			hash : '122015.html'
 		}
 	];
 })();

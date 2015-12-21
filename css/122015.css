@@ -1,0 +1,57 @@
+.game {
+  background-color: #555;
+  width: 500px;
+  height: 500px;
+  border-radius: 10%;
+  float: left;
+}
+
+.controller {
+  float: left;
+  padding: 50px 0 0 30px;
+}
+
+.controller p.points {
+  padding-left: 2em;
+  font-size: 1.5em;
+}
+
+.game-over, .points {
+  display: none;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+.square:hover {
+  cursor: pointer;
+}
+
+button {
+  font-family: 'Pathway Gothic One', sans-serif;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+}
+
+.s0 {
+  border-radius: 10% 0 0 0;
+  margin: 33px 16px 16px 33px;
+}
+
+.s1 {
+  border-radius: 0 10% 0 0;
+  margin: 33px 33px 16px 16px;
+}
+
+.s2 {
+  border-radius: 0 0 0 10%;
+  margin: 16px 16px 33px 33px;
+}
+
+.s3 {
+  border-radius: 0 0 10% 0;
+  margin: 16px 33px 33px 16px;
+}
