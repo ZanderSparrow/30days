@@ -83,6 +83,12 @@
 			title : 'Parallax',
 			description : 'An experiment with parallax scrolling.',
 			hash : '122115.html'
-		}
+		},
+		{
+			date : '12/22/15',
+			title : 'Pig Latin',
+			description : 'Translates text into pig latin.',
+			hash : '122215.html'
+		},
 	];
 })();

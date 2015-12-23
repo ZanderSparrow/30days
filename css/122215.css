@@ -1,0 +1,23 @@
+button {
+  font-family: "Pathway Gothic One", sans-serif;
+  border-radius: 10%;
+  height: 2em;
+  font-size: 1.25em;
+}
+
+textarea {
+  width: 30%;
+  height: 6em;
+}
+
+.result {
+  clear: both;
+  max-width: 100%;
+  min-width: 200px;
+}
+
+.large-letter p::first-letter {
+  font-size: 300%;
+  font-family: 'Kranky', cursive;
+  letter-spacing: 0.1em;
+}
