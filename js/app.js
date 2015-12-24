@@ -90,5 +90,11 @@
 			description : 'Translates text into pig latin.',
 			hash : '122215.html'
 		},
+		{
+			date : '12/24/15',
+			title : 'Slide',
+			description : 'A page with an expanding menu.',
+			hash : '122415.html'
+		},
 	];
 })();
