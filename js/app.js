@@ -102,5 +102,11 @@
 			description : 'A ball bouncing in a box.',
 			hash : '122515.html'
 		},
+		{
+			date : '12/26/15',
+			title : 'Cryptosquare',
+			description : 'Encrypts text.',
+			hash : '122615.html'
+		},
 	];
 })();

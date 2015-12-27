@@ -1,0 +1,11 @@
+button {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-weight: bold;
+  border-radius: 7%;
+  padding: 0.33em;
+  margin-left: 150px;
+}
+
+.result {
+  margin: 20px 0 20px;
+}
