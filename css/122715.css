@@ -1,0 +1,31 @@
+.result {
+  display: none;
+  float: right;
+}
+
+button {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-weight: bold;
+}
+
+.result p {
+  font-size: 7em;
+  font-family: 'Kranky', sans-serif;
+  padding: 50px 0 0 0;
+}
+
+@media (max-width: 900px) {
+  .result p {
+    font-size: 5em;
+  }
+
+  .result {
+    float: left;
+  }
+}
+
+@media (max-width: 600px) {
+  .result p {
+    font-size: 2.5em;
+  }
+}
