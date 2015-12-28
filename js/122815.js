@@ -20,7 +20,7 @@ $(function() {
   $('.bases-form form').on('submit', function(e) {
     e.preventDefault();
     var base = $('.base').val();
-    var number = $('.number').val();
+    var number = $('.number').val() === '' ? 0 : $('.number').val();
     var result = numberInBase(+number, +base);
     $('.result p').html("The number " + number + " in base " + base + " is: " + "<strong>" + result + "</strong>.");
     $('.result p').show();
