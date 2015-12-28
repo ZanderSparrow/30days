@@ -1,0 +1,14 @@
+label {
+  margin: 0 1em 0;
+}
+
+.result p {
+  font-size: 2em;
+  word-spacing: 0.15em;
+  margin: 1.5em 0 0 1.5em;
+}
+
+strong {
+  letter-spacing: 0.1em;
+  margin-left: 0.3em;
+}

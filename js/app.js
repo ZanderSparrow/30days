@@ -114,5 +114,11 @@
 			description : 'Converts numbers to roman numerals.',
 			hash : '122715.html'
 		},
+		{
+			date : '12/28/15',
+			title : 'Binary to Hex',
+			description : 'Converts numbers in base ten to bases 2-16.',
+			hash : '122815.html'
+		},
 	];
 })();
