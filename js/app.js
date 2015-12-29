@@ -21,7 +21,7 @@
 		{
 			date : '12/11/15',
 			title : 'Side Comments',
-			description : 'A bare-bones implementation of SideComments.js. This one took a little over an hour.',
+			description : 'A simplified implementation of SideComments.js.',
 			hash : '121115.html'
 		},
 		{
@@ -119,6 +119,12 @@
 			title : 'Binary to Hex',
 			description : 'Converts numbers in base ten to bases 2-16.',
 			hash : '122815.html'
+		},
+		{
+			date : '12/29/15',
+			title : 'To Do List',
+			description : 'An interactive to do list made with Angular.',
+			hash : '122915.html'
 		},
 	];
 })();

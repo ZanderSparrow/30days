@@ -1,0 +1,29 @@
+.strike span {
+  text-decoration: line-through;
+}
+
+li {
+  list-style: lower-greek;
+  margin: 0.5em;
+}
+
+li a {
+  font-size: 1.5em;
+  font-family: 'Kranky', 'Pathway Gothic One';
+  margin: 0 0.25em 0;
+}
+
+li a:hover{
+  text-decoration: none;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+li span {
+  font-size: 1.5em;
+  margin-left: 0.25em;
+}
+
+form {
+  padding: 20px 0 20px;
+}

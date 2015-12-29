@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app="toDo">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Bangers|Pathway+Gothic+One|Kranky' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="../css/styles.css">
+	<link rel="stylesheet" type="text/css" href="../css/122915.css">
+	<script src="../js/angular.min.js"></script>
+	<script src="../js/122915.js"></script>
+	<title>30 Days of Web Development | Day 20</title>
+</head>
+<body>
+	<div class="container" ng-controller="ToDoCtrl">
+		<header>
+			<h1>To Do List</h1>
+			<p class="lead">Add items, check them off, or remove them.</p>
+		</header>
+		<section>
+			<ul>
+				<li ng-repeat="item in items" ng-class="strikeIfChecked">
+					<span>{{item.action}}</span><a ng-click="strikeIfChecked='strike'">&#10003</a><a ng-click="delete(item)">x</a>
+				</li>
+			</ul>
+			<form ng-submit="addItem()" class="form-inline" role="form">
+				<div class="form-group">
+					<label for="listItem">Next item:</label>
+					<input type="text" class="form-control" id="listItem" ng-model="listItem" placeholder="...">
+					<button type="submit" class="btn btn-primary">Add</button>
+				</div>		
+			</form>
+		</section>
+		<footer></footer>
+	</div>
+</body>
+</html>
