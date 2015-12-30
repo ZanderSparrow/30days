@@ -126,5 +126,12 @@
 			description : 'An interactive to do list made with Angular.',
 			hash : '122915.html'
 		},
+		{
+			date : '12/30/15',
+			title : 'The Ipsum Store',
+			description : 'An online things store made with Angular.',
+			hash : '123015.html'
+		},
+		
 	];
 })();

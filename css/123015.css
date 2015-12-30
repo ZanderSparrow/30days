@@ -1,0 +1,76 @@
+.store .inventory li {
+  list-style: none;
+  padding: 10px;
+  border: 2px solid #555;
+  margin: 5px;
+  background-color: #eed;
+}
+
+img {
+  border-radius: 100%;
+  border: 2px solid #555;
+  float: left;
+  display: inline-block;
+  margin: 0 20px 0;
+}
+
+.store {
+  text-align: center;
+}
+
+.store p {
+  text-align: left;
+  padding: 1em;
+}
+
+.cart a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.25em;
+}
+
+.nav li {
+  list-style: none;
+  padding: 0 10px 0;
+  background-color: transparent;
+  border: none;
+  display: inline;
+}
+
+.nav ul {
+  text-align: right;
+}
+
+.sortorder:after {
+  content: '\25b2';
+}
+.sortorder.reverse:after {
+  content: '\25bc';
+}
+
+table {
+  text-align: left;
+  width: 100%;
+  font-size: 1.25em;
+}
+
+td {
+  padding: 1em 0 1em;
+}
+
+.cart .btn-link {
+  display: block;
+  margin: 2em auto 0;
+}
+
+.cart p {
+  font-weight: bold;
+  float: right;
+  margin: 15px 100px 0 0;
+}
+
+.quantity:hover {
+  cursor: pointer;
+  font-size: 1.5em;
+}
+

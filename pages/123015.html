@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html ng-app="shop">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Bangers|Pathway+Gothic+One' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="../css/styles.css">
+	<link rel="stylesheet" type="text/css" href="../css/123015.css">
+	<script src="../js/angular.min.js"></script>
+	<script src="../js/123015.js"></script>
+	<title>30 Days of Web Development | Day 21</title>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h1>Shop for things</h1>
+			<p class="lead">...at the ipsum store</p>
+		</header>
+		<section ng-controller="shopCtrl">
+			<div class="store" ng-show="!showCart">			
+				<h2>Things for sale</h2>
+				<div class="nav">
+					<ul>
+						<li><input ng-model="query" class="span1" type="text" placeholder="search"></li>
+						<li>Sort:
+							<button class="btn btn-link" ng-click="order('price')">Price</button>
+							<span class="sortorder" ng-show="predicate === 'price'" ng-class="{reverse:reverse}"></span>
+							<button class="btn btn-link" ng-click="order('name')">Item</button>
+							<span class="sortorder" ng-show="predicate === 'name'" ng-class="{reverse:reverse}"></span>
+						</li>
+						<li><button class="btn btn-link" ng-click="showArea('cart')">Cart</button>({{ cart.length }})</li>
+					</ul>
+				</div>
+				<ul class="inventory">
+					<li ng-repeat="item in inventory | filter:query | orderBy:predicate:reverse">
+						<h4>{{ item.name }}</h4>
+						<img src="http://lorempixel.com/100/100/abstract">
+						<p>{{ item.description }}</p>
+						{{ item.price | currency }}
+						<button class="btn btn-default" ng-click="addToCart(item)">Add to Cart</button>
+					</li>
+				</ul>
+			</div>
+			<div class="cart" ng-show="showCart">
+				<h2>Cart</h2>
+				<hr/>
+				<table>
+					<tr>
+						<th>Item</th>
+						<th>Quantity</th>
+						<th>Price</th>
+					</tr>
+					<tr ng-repeat="item in cart">
+						<td>{{ item.name }}</td>
+						<td>
+							<span ng-click="editing = true" ng-hide="editing" class="quantity">{{ item.quantity }}</span>
+							<span ng-show="editing" ng-submit="editing = false">
+              	<form class="input-append" role="form">
+                	<input type="text" id="appendInputButton" class="span1" ng-model="item.quantity" placeholder="#" required/>
+                	<button class="btn" type="submit">&#10003</button>
+              	</form>
+            	</span>
+						</td>
+						<td>{{ item.price * item.quantity | currency }}</td>
+					</tr>
+				</table>
+				<p>Total: {{ getTotal() | currency }}</p>
+				<button class="btn btn-link" ng-click="showArea('shop')">Return to Store</button>
+			</div>
+		</section>
+		<footer></footer>
+	</div>
+</body>
+</html>
