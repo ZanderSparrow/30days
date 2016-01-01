@@ -1,0 +1,16 @@
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+button {
+  border-radius: 10%;
+}
+
+li {
+  font-size: 1.2em;
+  padding: 0.3em;
+}

@@ -132,6 +132,11 @@
 			description : 'An online things store made with Angular.',
 			hash : '123015.html'
 		},
-		
+		{
+			date : '12/31/15',
+			title : 'Primes and factors',
+			description : 'Finds the prime factors of an integer.',
+			hash : '123115.html'
+		},
 	];
 })();
