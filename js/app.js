@@ -138,5 +138,11 @@
 			description : 'Finds the prime factors of an integer.',
 			hash : '123115.html'
 		},
+		{
+			date : '01/01/16',
+			title : 'Color Slider',
+			description : 'Use sliders to pick colors.',
+			hash : '010116.html'
+		},
 	];
 })();
