@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="us">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Bangers|Pathway+Gothic+One' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="../css/styles.css">
+	<link href="../js/jquery-ui/jquery-ui.css" rel="stylesheet">
+	<script src="../js/jQuery.js"></script>
+	<script src="../js/jquery-ui/jquery-ui.js"></script>
+	<script src="../js/010316.js"></script>
+	<title>30 Days of Web Development | Day 25</title>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h1>Pick a date</h1>
+			<p class="lead">from a pop-up calendar</p>
+		</header>
+		<section>
+			<form class="form-inline">
+				<label for="date">Choose a date</label>
+				<input id="date" type="text" class="span3">
+				<select id="format" class="span3">
+			    <option value="mm/dd/yy">Default - mm/dd/yy</option>
+			    <option value="yy-mm-dd">ISO 8601 - yy-mm-dd</option>
+			    <option value="d M, y">Short - d M, y</option>
+			    <option value="d MM, y">Medium - d MM, y</option>
+			    <option value="DD, d MM, yy">Full - DD, d MM, yy</option>
+			    <option value="&apos;day&apos; d &apos;of&apos; MM &apos;in the year&apos; yy">With text - 'day' d 'of' MM 'in the year' yy</option>
+  			</select>
+				<button type="submit" class="btn">Select Date</button>
+			</form>
+  		<div class="output"></div>
+		</section>
+		<footer></footer>
+	</div>
+</body>
+</html>

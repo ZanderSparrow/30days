@@ -150,5 +150,11 @@
 			description : 'A simple game.',
 			hash : '010216.html'
 		},
+		{
+			date : '01/03/16',
+			title : 'Date Picker',
+			description : 'A calendar pops up.',
+			hash : '010316.html'
+		},
 	];
 })();
