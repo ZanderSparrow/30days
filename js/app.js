@@ -144,5 +144,11 @@
 			description : 'Use sliders to pick colors.',
 			hash : '010116.html'
 		},
+		{
+			date : '01/02/16',
+			title : 'SPBPA',
+			description : 'A simple game.',
+			hash : '010216.html'
+		},
 	];
 })();

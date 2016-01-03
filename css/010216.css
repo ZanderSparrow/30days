@@ -1,0 +1,15 @@
+.instructions{
+  float: left;
+}
+
+.game {
+  clear: both;
+}
+
+.result {
+  display: none;
+  float: right;
+  font-size: 2em;
+  line-height: 1em;
+  margin: 0 40px 0;
+}
