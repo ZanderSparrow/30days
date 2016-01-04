@@ -5,8 +5,10 @@ Number.prototype.mod = function(n) {
 };
 
 $(function() {
+  $('.spbpa').val('0');
+  $('.result').html('');
 
-  $('.spbpa').on('click', function() {
+  $('.spbpa').on('change', function() {
     $('.result').fadeOut(1000, function() {
       $('.result').html('');
       var userPickName = $('form input[type=radio]:checked').attr('id');
