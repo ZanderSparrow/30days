@@ -1,4 +1,4 @@
-var numToName = {0:"stone", 1:"parchment", 2:"blade", 3:"potion", 4:"amulet"};
+var numToName = {0:"stone", 1:"amulet", 2:"parchment", 3:"potion", 4:"blade"};
 
 Number.prototype.mod = function(n) {
   return ((this%n)+n)%n;
@@ -6,7 +6,7 @@ Number.prototype.mod = function(n) {
 
 $(function() {
 
-  $('.spbpa').on('change', function() {
+  $('.spbpa').on('click', function() {
     $('.result').fadeOut(1000, function() {
       $('.result').html('');
       var userPickName = $('form input[type=radio]:checked').attr('id');
