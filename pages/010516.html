@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Bangers|Pathway+Gothic+One' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="../css/styles.css">
+	<link rel="stylesheet" type="text/css" href="../css/010516.css">
+	<script src="../js/jQuery.js"></script>
+	<script src="../js/sketch.js"></script>
+	<script src="../js/010516.js"></script>
+	<title>30 Days of Web Development | Day 27</title>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h1>Draw a picture</h1>
+			<p class="lead">Create a PNG image using markers</p>
+			<p class="instructions">Click the color swatches to change color. Click and drag to draw. To clear the canvas, click <span class="btn-name">Erase</span> and then click anywhere on the canvas. To return to drawing, click <span class="btn-name">Marker</span>. Move the sliders to create a custom color, then click the custom swatch to use it.</p>
+		</header>
+		<section class="drawing">
+			<canvas id="drawing-canvas" width="400px" height="400px"></canvas>
+			<div class="toolbar">
+				<table id="color-swatches">
+					<tr>
+						<td><a href="#drawing-canvas" data-color="#000"><div class="color-select" id="black"></div></a></td>
+						<td><a href="#drawing-canvas" data-color="#960"><div class="color-select" id="brown"></div></a></td>
+					</tr>
+					<tr>
+						<td><a href="#drawing-canvas" data-color="#c00"><div class="color-select" id="red"></div></a></td>
+						<td><a href="#drawing-canvas" data-color="#f90"><div class="color-select" id="orange"></div></a></td>
+					</tr>
+					<tr>
+						<td><a href="#drawing-canvas" data-color="#ff0"><div class="color-select" id="yellow"></div></a></td>
+						<td><a href="#drawing-canvas" data-color="#390"><div class="color-select" id="green"></div></td>
+					</tr>
+					<tr>
+						<td><a href="#drawing-canvas" data-color="#339"><div class="color-select" id="blue"></div></a></td>
+						<td><a href="#drawing-canvas" data-color="#93f"><div class="color-select" id="purple"></div></a></td>
+					</tr>
+					<tr>
+						<td><a href="#drawing-canvas" data-color="#555"><div class="color-select" id="custom"></div></a></td>
+					</tr>
+				</table>
+				<form class="span2">
+					<legend>Custom Color</legend>
+					<input autocomplete="off" type="range" class="slide" id="slide0" min="0" max="15" step="1">
+					<input autocomplete="off" type="range" class="slide" id="slide1" min="0" max="15" step="1">
+					<input autocomplete="off" type="range" class="slide" id="slide2" min="0" max="15" step="1">
+				</form>
+			</div>
+			<div class="control-buttons">	
+				<a href="#drawing-canvas" data-tool="marker"><button id="marker" class="btn btn-primary">Marker</button></a>
+				<a href="#drawing-canvas" data-tool="eraser"><button id="erase" class="btn btn-danger">Erase</button></a>
+				<a href="#drawing-canvas" data-download="png"><button id="download" class="btn">Create PNG</button></a>
+			</div>
+		</section>
+		<footer></footer>
+	</div>
+</body>
+</html>

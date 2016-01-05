@@ -162,5 +162,11 @@
 			description : 'Fun and/or frustration.',
 			hash : '010416.html'
 		},
+		{
+			date : '01/05/16',
+			title : 'Markers',
+			description : 'Draw a picture.',
+			hash : '010516.html'
+		},
 	];
 })();
