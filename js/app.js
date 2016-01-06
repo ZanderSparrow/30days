@@ -168,5 +168,11 @@
 			description : 'Draw a picture.',
 			hash : '010516.html'
 		},
+		{
+			date : '01/06/16',
+			title : 'Leap Year',
+			description : 'Find out if a year is one.',
+			hash : '010616.html'
+		},
 	];
 })();
