@@ -174,5 +174,11 @@
 			description : 'Find out if a year is one.',
 			hash : '010616.html'
 		},
+		{
+			date : '01/07/16',
+			title : 'Caesar Cypher',
+			description : 'A simple encryption program.',
+			hash : '010716.html'
+		},
 	];
 })();
