@@ -180,5 +180,11 @@
 			description : 'A simple encryption program.',
 			hash : '010716.html'
 		},
+		{
+			date : '01/08/16',
+			title : 'Pyramid',
+			description : 'Choose a size, make a pyramid.',
+			hash : '010816.html'
+		},
 	];
 })();

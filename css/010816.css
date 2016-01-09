@@ -1,0 +1,12 @@
+.pyramid {
+  line-height: 0px;
+}
+
+.block {
+  width: 50px;
+  height: 25px;
+  border: 2px solid #555;
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: #ded;
+}
